@@ -113,10 +113,10 @@ Baby.prototype.play = function(){
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. Window Bindig is when this is in the global scope so therefore refers to everything on the console windows. Not something we like to do.
+  2. Implicit binding is when you invoke a function you have to use he this keyword inorder to access the key from the object its within. ONly applies to objects with methods.
+  3. New Binding is when you use the new key word or Object.create to create a new binding and use this to point to it.
+  4. Explicit Binding is when you use call, apply, or bind to pass in arguments and inoke a function you have to use this to refer to it.
 */
 
 
