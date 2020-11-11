@@ -55,6 +55,7 @@ Person.prototype.poop = function(){
   this.stomach = []
 }
 
+// @ts-ignore
 Person.prototype.toString = function(name, age){
   return `${this.name}, ${this.age}`
 }
@@ -108,6 +109,7 @@ Baby.prototype.constructor = Baby;
 Baby.prototype.play = function(){
   return `Playing with ${this.favoriteToy}`;
 }
+
 
 /* 
   TASK 4
